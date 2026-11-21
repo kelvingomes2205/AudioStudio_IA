@@ -1,0 +1,82 @@
+# ==============================================================================
+# AudioStudio IA - Git Ignore Configuration
+# ==============================================================================
+
+# Ambientes Virtuais (Virtual Environments)
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / otimizações do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Arquivos de Testes e Distribuição
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Caches de Modelos de IA e HuggingFace / PyTorch
+.cache/
+models/
+huggingface/
+checkpoints/
+*.pt
+*.bin
+*.onnx
+
+# Arquivos de Áudio e Mídias Temporárias de Teste
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.aac
+*.ogg
+*.wma
+*.mp4
+*.mkv
+audiostudio_preview.wav
+Audio_*.mp3
+Audio_*.wav
+
+# Saídas de Transcrição geradas em testes (mantendo requirements.txt)
+Transcricao_*.txt
+*.srt
+
+# Logs e Banco de Dados Temporário
+*.log
+*.sqlite
+*.sqlite3
+
+# Editores e IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/

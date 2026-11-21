@@ -1,0 +1,4 @@
+customtkinter
+pillow
+pyttsx3
+faster-whisper
