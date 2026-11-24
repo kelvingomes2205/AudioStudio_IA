@@ -6,7 +6,13 @@ O **AudioStudio IA** é um aplicativo desktop moderno desenvolvido em Python com
 2. **Transcritor Whisper em Lote (STT):** Painel profissional baseado no modelo Whisper da OpenAI (`faster-whisper`), com console em tempo real à esquerda, barra de progresso neon, seleção em lote de arquivos e pastas, seleção de modelos (`tiny`, `base`, `small`, `medium`, `large-v3`), suporte a GPU/CUDA ou CPU, precisão (`int8`, `float16`, `float32`) e geração automática de legendas `.srt` e arquivos `.txt`.
 
 ---
+## 📸 Interface do Aplicativo
 
+### Conversor de Texto em Áudio (TTS)
+![Tela de Texto em Áudio (TTS)](assets/tela_tts.png)
+
+### Transcritor Whisper em Lote (STT)
+![Tela de Transcrição Whisper (STT)](assets/tela_stt.png)
 ## 🏛️ Arquitetura Modular Limpa
 
 ```
